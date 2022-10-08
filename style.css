@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+* {
+    font-family: 'Abyssinica SIL', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    width: 100vw;
+    height: 40vh;
+    background: #000;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+    background: blueviolet;
+}
+#buttom {
+    width: 100vw;
+    height: 15vh;
+    background: orange;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    width: 170px;
+    height: 170px;
+    transition: all 0.3s;
+}
+.logo:hover {
+    opacity: 0.7;
+    width: 200px;
+    height: 200px;
+}
+
+.word_container {
+    top: 70px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 50px;
+    position: absolute;
+    left: 40%;
+}
+span {
+    cursor: pointer;
+}
+p {
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+.word:hover {
+    transform: translate(10px, 20px);
+    color: #000;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#string {
+    position: absolute;
+    left: 400px;
+    top: 350px;
+    width: 50vw;
+    height: 10vh;
+}
+.work {
+    height: 500px;
+    width: 600px;
+}
+.work.hiden{
+    visibility: hidden;
+}
+.footer {
+    width: 100vw;
+    height: 21vh;
+    background: #808080;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 80%;
+    width: 100vw;
+}
+.copy {
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    color: #000;
+}
+.icon_fotter {
+    gap: 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+    transition: opacity 0.3s;
+}
+
+svg:hover {
+    opacity: 0.2;
+}
+
+.contact {
+    position: absolute;
+    top: 1120px;
+    font-size: 24px;
+}
+
+.icon_fotter.one {
+    position: absolute;
+    top: 1170px;
+    left: 650px;
+}
+.icon_fotter.two {
+    position: absolute;
+    top: 1170px;
+    left: 700px;
+}
+.icon_fotter.three {
+    position: absolute;
+    top: 1170px;
+    left: 750px;
+}
