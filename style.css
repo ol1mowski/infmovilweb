@@ -23,12 +23,12 @@ body {
     align-items: center;
     width: 100vw;
     height: 25vh;
-    background: blueviolet;
+    background: #000;
 }
 #buttom {
     width: 100vw;
     height: 15vh;
-    background: orange;
+    background: rgb(255, 165, 0);
     color: #000;
     display: flex;
     justify-content: center;
@@ -50,16 +50,6 @@ body {
     height: 200px;
 }
 
-.word_container {
-    top: 70px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    position: absolute;
-    left: 40%;
-}
 span {
     cursor: pointer;
 }
@@ -81,16 +71,15 @@ p {
     width: 200px;
     height: 50px;
     display: inline-block;
-    transition: all 0.3s;
+    transition: all 0.6s;
 }
 .word:hover {
-    color: #000;
+    color: rgb(255, 165, 0);
 }
 .search {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
     width: 60px;
     height: 50px;
     display: inline-block;
