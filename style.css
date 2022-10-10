@@ -15,7 +15,7 @@ body {
 .menu {
     width: 100vw;
     height: 40vh;
-    background: #000;
+    background: #3D3D3B;
 }
 .top {
     display: flex;
@@ -23,7 +23,6 @@ body {
     align-items: center;
     width: 100vw;
     height: 25vh;
-    background: #000;
 }
 #buttom {
     width: 100vw;
