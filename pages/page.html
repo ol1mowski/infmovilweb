@@ -5,21 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infmovilweb Site</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <style>
-        .work {
-            position: absolute;
-            top: 590px;
-            width: 700px;
-        }
         .home {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        top: 235px;
-        left: 560px;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 235px;
+            left: 550px;
         }
-@media screen and (max-width: 425px) {
+        @media screen and (max-width: 425px) {
             body {
                 overflow-x: hidden;
             }
@@ -67,18 +62,19 @@
                 height: 31px;
             }
             #st1 {
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: lighter;
                 left: 10%;
             }
             #string {
-                top: 50%;
+                top: 60%;
                 left: 13%;
                 width: 70%;
             }
             #work {
                 position: absolute;
-                top: 65%;
+                top: 70%;
+                left: 15%;
                 width: 250px;
                 height: 250px;
             }
@@ -103,15 +99,9 @@
             .icon {
                 height: 70%;
             }
-            #slider {
-                position: absolute;
-                top: 20vh;
-                width: 400px;
-                height: 250px;
-            }
-          }
-@media screen and (max-width: 375px) {
-            body {
+        }
+    @media screen and (max-width: 375px) {
+        body {
                 overflow-x: hidden;
             }
             .logo1, .logo {
@@ -158,7 +148,7 @@
                 height: 31px;
             }
             #st1 {
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: lighter;
                 left: 10%;
             }
@@ -194,13 +184,8 @@
             .icon {
                 height: 70%;
             }
-            #slider {
-                position: absolute;
-                top: 20vh;
-                width: 400px;
-                height: 250px;
-            }
-          }
+        }
+
         @media screen and (max-width: 320px) {
             body {
                 overflow-x: hidden;
@@ -238,7 +223,7 @@
             span {
                 font-size: 17px;
             }
-            #buttom{
+            #buttom {
                 font-size: 24px;
             }
             .home {
@@ -249,7 +234,7 @@
                 height: 31px;
             }
             #st1 {
-                font-size: 15px;
+                font-size: 20px;
                 font-weight: lighter;
                 left: 10%;
             }
@@ -285,42 +270,24 @@
             .icon {
                 height: 70%;
             }
-            #slider {
-                position: absolute;
-                top: 20vh;
-                width: 400px;
-                height: 250px;
-            }
         }
-    </style>
+
+</style>
 </head>
 <body>
     <div class="menu">
-      <div class="top">
-        <a class="logo1" href="./index.html"><img class="logo" src="./img/mauricio-1.png" alt="Company_logo"></a>
-            <a href="./secure.html"><div class="word secure"><p>SEGURIDAD</p></div></a>
-            <a href="./page.html"><div class="word page"><p>PAGINAS WEB</p></div></a>
-            <a href="./repare.html"><div class="word repar"><p>REPARACION</p></div></a>
-            <a href="./contact.html"><div class="word contactString"><p>CONTACTO</p></div></a>
+        <div class="top">
+            <a class="logo1" href="../index.html"><img class="logo" src="../img/mauricio-1.png" alt="Company_logo"></a>
+            <a href="../pages/secure.html"><div class="word secure"><p>SEGURIDAD</p></div></a>
+            <a href="../pages/page.html"><div class="word page"><p>PAGINAS WEB</p></div></a>
+            <a href="../pages/repare.html"><div class="word repar"><p>REPARACION</p></div></a>
+            <a href="../pages/contact.html"><div class="word contactString"><p>CONTACTO</p></div></a>
         </div>
-        <div class="home"><a href="./index.html"><img class="home" src="./img/home.png" alt=""></a></div>
-        <div id="buttom"><span id="stirng">REPARACION</span></div>
+        <div class="home"><a href="../index.html"><img class="home" src="../img/home.png" alt=""></a></div>
+        <div id="buttom"><span id="stirng">PAGINAS WEB</span></div>
     </div>
     <div class="content">
-        <div id="string"><h2 id="st1">Nuestro equipo dispone de las herramientas mas avanzadas para solucionar cualquier tipo de avería que puedas tener en tu ordenador, tablet, moviles y <br/>muchos mas dispositivos electronicos.<br />Puede visitarnos en la tienda o llamarnos por teléfono y le daremos un presupuesto aproximado. ( es solo aproximado, para el presupuesto final hay que ver <br />realmente la avería y su costo. )</h2></div>
-        <main>
-            <div id="slider">
-              <div id="top-row">
-                <img class="arrow arrow-left" id="arrow-left" src="./img/arrow-left.png" alt="" />
-                <div id="slides-container">
-                  <img id="slide1" class="slide active" src="./img/WhatsApp-Image-2019-09-07-at-15-48-23.jpg"/>
-                  <img id="slide2" class="slide" src="./img/WhatsApp-Image-4.jpg" />
-                  <img id="slide3" class="slide" src="./img/WhatsApp-Image-3.jpg" />
-                </div>
-                <img class="arrow arrow-right" id="arrow-right" src="./img/arrow-right.png" alt="" />
-              </div>
-            </div> 
-          <main>
+        <div id="string"><h2 id="st1">Diseño y programación de páginas webs.<br/>Si estás interesado en crear una página web para tu negocio no dudes en contactarnos. <br />Atención personalizada para las necesidades de cada cliente.</h2></div>
     </div>
     <div class="footer">
         <div class="icon">
@@ -330,6 +297,5 @@
         <div class="icon_fotter three"><a href="https://infmovilweb.es/es/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M36.8 192H603.2c20.3 0 36.8-16.5 36.8-36.8c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0H121.7c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM64 224V384v80c0 26.5 21.5 48 48 48H336c26.5 0 48-21.5 48-48V384 224H320V384H128V224H64zm448 0V480c0 17.7 14.3 32 32 32s32-14.3 32-32V224H512z"/></svg></a></div></div>
         <div class="copy">Powered by Ol1mowski Deuche Code Republish</div>
     </div>
-    <script src="./script.js"></script>
 </body>
 </html>
