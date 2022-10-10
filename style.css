@@ -164,3 +164,48 @@ svg:hover {
     top: 1170px;
     left: 750px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+    position: absolute;
+    top: 550px;
+  }
+  
+  #slider {
+    width: 768px;
+    height: 420px;
+  }
+  
+  #slider #top-row {
+    width: 768px;
+    height: 420px;
+    overflow: hidden;
+  }
+  
+  #slider #top-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #slider .slide {
+    display: none;
+    width: 100%;
+    flex: 1;
+  }
+  
+  #slider .slide.active {
+    display: block;
+  }
+  
+  .arrow {
+    margin: 0 5px;
+  }
+  
+  .arrow,
+  .dot {
+    cursor: pointer;
+  }
