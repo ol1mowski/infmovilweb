@@ -15,7 +15,7 @@ body {
 .menu {
     width: 100vw;
     height: 40vh;
-    background: url('./img/Tło.JPG')center;
+    background: url('./img/Tło.JPG') center;
     background-size: cover;
 }
 .top {
@@ -28,8 +28,9 @@ body {
 #buttom {
     width: 100vw;
     height: 15vh;
-    background: rgb(255, 165, 0);
-    color: #000;
+    background: url('./img/Tło_dół.JPG');
+    background-size: cover;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +64,7 @@ p {
 }
 
 .word {
+    font-size: 18px;
     cursor: pointer;
     display: flex;
     justify-content: center;
