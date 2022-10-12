@@ -15,7 +15,8 @@ body {
 .menu {
     width: 100vw;
     height: 40vh;
-    background: #3D3D3B;
+    background: url('./img/Tło.JPG')center;
+    background-size: cover;
 }
 .top {
     display: flex;
