@@ -30,7 +30,7 @@ body {
     height: 15vh;
     background: url('./img/Tło_dół.JPG');
     background-size: cover;
-    color: #fff;
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
