@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    border-radius: 15px;
+}
+
 .menu {
     width: 100vw;
     height: 40vh;
