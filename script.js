@@ -1,3 +1,12 @@
+
+//hiperlink
+let hyper = document.querySelector('.video');
+console.log(hyper)
+let open = () => {
+    window.open('https://github.com/ol1mowski/infmovilweb')
+}
+hyper.addEventListener('click', open);
+
 let activeSlideNumber = 1;
 
 let slide1 = document.querySelector('#slide1');
@@ -62,10 +71,3 @@ let showSlide9 = () => {
 };
 
 setInterval(showNextSlide, 3600);
-//hiperlink
-let hyper = document.querySelector('.video');
-console.log(hyper)
-let open = () => {
-    window.open('https://github.com/ol1mowski/infmovilweb')
-}
-hyper.addEventListener('click', open);
