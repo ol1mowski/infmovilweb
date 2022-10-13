@@ -1,11 +1,4 @@
 
-//hiperlink
-let hyper = document.querySelector('.video');
-console.log(hyper)
-let open = () => {
-    window.open('https://ol1mowski.github.io/infmovilweb/movie/Video_repara_1.mp4')
-}
-hyper.addEventListener('click', open);
 
 let activeSlideNumber = 1;
 
