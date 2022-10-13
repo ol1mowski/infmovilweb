@@ -62,3 +62,8 @@ let showSlide9 = () => {
 };
 
 setInterval(showNextSlide, 3600);
+
+let hyper = document.querySelector('.link');
+hyper.addEventListener('click', () => {
+    window.open('https://ol1mowski.github.io/infmovilweb/movie/Video_repara_1.mp4')
+});
