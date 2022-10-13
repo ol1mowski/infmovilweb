@@ -5,6 +5,12 @@ let arrowRight = document.querySelector('.arrow-right');
 let slide1 = document.querySelector('#slide1');
 let slide2 = document.querySelector('#slide2');
 let slide3 = document.querySelector('#slide3');
+let slide4 = document.querySelector('#slide4');
+let slide5 = document.querySelector('#slide5');
+let slide6 = document.querySelector('#slide6');
+let slide7 = document.querySelector('#slide7');
+let slide8 = document.querySelector('#slide8');
+let slide9 = document.querySelector('#slide9');
 
 let hideActiveSlide = () => {
     let activeSlide = document.querySelector('.active');
@@ -17,7 +23,7 @@ let showSlide = (slideNumber) => {
 };
 
 let showNextSlide = () => {
-    if (activeSlideNumber == 3)
+    if (activeSlideNumber == 9)
     {
         activeSlideNumber = 1;
     }else {
@@ -29,7 +35,7 @@ let showNextSlide = () => {
 let showPreviousSlide = () => {
     if (activeSlideNumber == 1)
     {
-        activeSlideNumber = 3;
+        activeSlideNumber = 9;
     }else {
         activeSlideNumber = activeSlideNumber - 1;
     };
@@ -46,6 +52,25 @@ let showSlide2 = () => {
 let showSlide3 = () => {
     showSlide(3);
 };
+let showSlide4 = () => {
+    showSlide(4);
+};
 
-arrowLeft.addEventListener('click', showPreviousSlide);
-arrowRight.addEventListener('click', showNextSlide);
+let showSlide5 = () => {
+    showSlide(5);
+};
+let showSlide6 = () => {
+    showSlide(6);
+};
+let showSlide7 = () => {
+    showSlide(7);
+};
+
+let showSlide8 = () => {
+    showSlide(8);
+};
+let showSlide9 = () => {
+    showSlide(9);
+};
+
+setInterval(showNextSlide, 3600);
