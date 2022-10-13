@@ -80,5 +80,5 @@ setInterval(showNextSlide, 3600);
 let video = document.querySelector('.video');
 
 video.addEventListener('click', () => {
-        window.open('/movie/Video_repara_1.mp4')
+        window.open('https://ol1mowski.github.io/infmovilweb/movie/Video_repara_1.mp4')
 });
