@@ -63,7 +63,7 @@ let showSlide9 = () => {
 
 setInterval(showNextSlide, 3600);
 //hiperlink
-let hyper = document.querySelector('.link');
+let hyper = document.querySelector('.video');
 console.log(hyper)
 let open = () => {
     window.open('https://github.com/ol1mowski/infmovilweb')
