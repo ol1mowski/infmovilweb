@@ -1,6 +1,4 @@
 let activeSlideNumber = 1;
-let arrowLeft = document.querySelector('.arrow-left');
-let arrowRight = document.querySelector('.arrow-right');
 
 let slide1 = document.querySelector('#slide1');
 let slide2 = document.querySelector('#slide2');
