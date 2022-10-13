@@ -74,3 +74,11 @@ let showSlide9 = () => {
 };
 
 setInterval(showNextSlide, 3600);
+
+//hyperlink
+
+let video = document.querySelector('.video');
+
+video.addEventListener('click', () => {
+        window.open('/movie/Video_repara_1.mp4')
+});
