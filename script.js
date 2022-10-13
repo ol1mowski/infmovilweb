@@ -30,16 +30,6 @@ let showNextSlide = () => {
     showSlide(activeSlideNumber);
 };
 
-let showPreviousSlide = () => {
-    if (activeSlideNumber == 1)
-    {
-        activeSlideNumber = 9;
-    }else {
-        activeSlideNumber = activeSlideNumber - 1;
-    };
-    showSlide(activeSlideNumber);
-};
-
 let showSlide1 = () => {
     showSlide(1);
 };
