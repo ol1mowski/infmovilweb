@@ -1,5 +1,3 @@
-
-
 let activeSlideNumber = 1;
 
 let slide1 = document.querySelector('#slide1');
