@@ -201,6 +201,11 @@ main {
   #slider {
     width: 768px;
     height: 420px;
+    transition: all 0.3s;
+  }
+  
+  #slider:hover {
+    transform: translateY(-20px);
   }
   
   #slider{
