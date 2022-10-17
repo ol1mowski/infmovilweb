@@ -35,7 +35,8 @@ img {
 .menu {
     width: 100vw;
     height: 40vh;
-    background: url('./img/Background.JPG') center;
+    /*<a href="https://pl.freepik.com/darmowe-zdjecie/elegancki-bialy-tlo-z-szarymi-abstrakcjonistycznymi-ksztaltami_5083072.htm#page=23&query=abstrakcja&position=25&from_view=keyword">Obraz autorstwa starline</a> na Freepik*/background: url('./img/elegant-white-background-with-gray-abstract-shapes.jpg') center;/**/
+    /*<a href="https://pl.freepik.com/darmowe-zdjecie/elegancki-bialy-tlo-z-szarymi-abstrakcjonistycznymi-ksztaltami_5083072.htm#page=23&query=abstrakcja&position=25&from_view=keyword">Obraz autorstwa starline</a> na Freepik*/background: url('./img/elegant-white-background-with-gray-abstract-shapes.jpg') center;/**/
     background-size: cover;
 }
 .top {
