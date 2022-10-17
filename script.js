@@ -1,18 +1,31 @@
 let activeSlideNumber = 1;
 
 let slide1 = document.querySelector('#slide1');
+console.log(slide1);
 let slide2 = document.querySelector('#slide2');
+console.log(slide2);
 let slide3 = document.querySelector('#slide3');
+console.log(slide3);
 let slide4 = document.querySelector('#slide4');
+console.log(slide4);
 let slide5 = document.querySelector('#slide5');
+console.log(slide5);
 let slide6 = document.querySelector('#slide6');
+console.log(slide6);
 let slide7 = document.querySelector('#slide7');
+console.log(slide7);
 let slide8 = document.querySelector('#slide8');
+console.log(slide8);
 let slide9 = document.querySelector('#slide9');
+console.log(slide9);
 let slide10 = document.querySelector('#slide10');
+console.log(slide10);
 let slide11 = document.querySelector('#slide11');
+console.log(slide11);
 let slide12 = document.querySelector('#slide12');
+console.log(slide12);
 let slide13 = document.querySelector('#slide13');
+console.log(slide13);
 
 let hideActiveSlide = () => {
     let activeSlide = document.querySelector('.active');
